@@ -16,6 +16,8 @@ Dry Hat.wav by CrushedLoops -- https://freesound.org/s/626906/ -- License: Creat
 
 C01-S02-pc-fan.wav 
 
+C01-S04-mouse-click.wav 
+
 loop 3:
 
 stereo-snap-sfx by aveyjess -- https://freesound.org/s/743637/ -- License: Creative Commons 0
