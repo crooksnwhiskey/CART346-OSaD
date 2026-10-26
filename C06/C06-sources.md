@@ -1,12 +1,27 @@
 Loop1:
 
-C01-S01-cs-player_FAV.wav
+C01-S01-cs-player_FAV.wav (x2)
 
-C01-S05-soap-dispenser.wav
+C01-S05-soap-dispenser.wav (x2)
 
 hi-3.wav by Meklips -- https://freesound.org/s/682784/ -- License: Creative Commons 0
 
+
+
 loop 2:
+
+stereo-snap-sfx by aveyjess -- https://freesound.org/s/743637/ -- License: Creative Commons 0
+
+Game start effect by fukumchi -- https://freesound.org/s/790086/ -- License: Creative Commons 0
+
+Game FX #8 by danlucaz -- https://freesound.org/s/517765/ -- License: Creative Commons 0
+
+Kick-Hard (8-Bit) by DewAholic -- https://freesound.org/s/318969/ -- License: Creative Commons 0
+
+Gun 2.wav by malatestinic.com -- https://freesound.org/s/481584/ -- License: Creative Commons 0
+
+
+loop 3:
 
 KICK 096 by GioMilko -- https://freesound.org/s/353760/ -- License: Creative Commons 0
 
@@ -18,17 +33,6 @@ C01-S02-pc-fan.wav
 
 C01-S04-mouse-click.wav 
 
-loop 3:
-
-stereo-snap-sfx by aveyjess -- https://freesound.org/s/743637/ -- License: Creative Commons 0
-
-Game start effect by fukumchi -- https://freesound.org/s/790086/ -- License: Creative Commons 0
-
-Game FX #8 by danlucaz -- https://freesound.org/s/517765/ -- License: Creative Commons 0
-
-Kick-Hard (8-Bit) by DewAholic -- https://freesound.org/s/318969/ -- License: Creative Commons 0
-
-Gun 2.wav by malatestinic.com -- https://freesound.org/s/481584/ -- License: Creative Commons 0
 
 loop 4: 
 
