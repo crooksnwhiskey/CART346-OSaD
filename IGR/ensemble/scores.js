@@ -112,29 +112,44 @@ const SCORES = [
     end: '1:10',
   },
   {
-    title: 'Rain Study I',
-    credit: "All recordings by Gabriel Vigliensoni.",
-    groups: 4,
+    title: 'C09 · freakuency',
+    credit: "Alex Chardon",
+    groups: 2,
     events: [
       // Sound 1 in A, B and C: each group spreads slowly, groups stay together
-      { at: '0:00', groups: 'AB', play: 'demo/1', ratio: 1.01, fade: 5 },
+      { at: '0:00', groups: 'A', play: 'crooksnwhiskey/C09-S03-texture', spread: 1.05, ratio: 1.2, fade: 5 },
       // The groups start drifting against each other too
-      { at: '0:30', spread: 1.04, glide: 30 },
+      //{ at: '0:30', spread: 1.04, glide: 30 },
       // At 2:00 sound 2 fades in on D over a minute…
-      { at: '1:00', groups: 'C', play: 'demo/3', ratio: 1.010, fade: 60 },
-      { at: '1:00', groups: 'D', play: 'demo/5', ratio: 1.020, fade: 60 },
+      //{ at: '1:00', groups: 'C', play: 'demo/3', ratio: 1.010, fade: 60 },
+      //{ at: '1:00', groups: 'D', play: 'demo/5', ratio: 1.020, fade: 60 },
       // …while A, B, C crossfade from sound 1 to sound 2 over the same minute
-      { at: '1:15', groups: 'AB', stop: 'demo/1', fade: 60 },
-      { at: '2:15', groups: 'A', play: 'demo/5', ratio: 1.004, fade: 60 },
+      { at: '0:21', groups: 'A', stop: 'crooksnwhiskey/C09-S03-texture' },
+      { at: '0:23', groups: 'A', play: 'crooksnwhiskey/C09-S03-texture' },
+
+      { at: '0:22', groups: 'A', ratio: 1.0 },
+      { at: '0:40', groups: 'A', stop: 'crooksnwhiskey/C09-S03-texture', fade: 30 },
+
+      { at: '0:23', groups: 'B', play: 'crooksnwhiskey/C09-S04-highbump', ratio: 1.01 },
+      { at: '0:40', groups: 'A', play: 'crooksnwhiskey/C09-S02-bells', fade: 30 },
+      { at: '1:10', groups: 'B', stop: 'crooksnwhiskey/C09-S04-highbump', fade: 30 },
+      { at: '1:10', groups: 'B', play: 'crooksnwhiskey/C09-S01-rythmic', fade: 30 },
+      { at: '1:40', groups: 'A', stop: 'crooksnwhiskey/C09-S02-bells', fade: 30 },
+      { at: '1:40', groups: 'A', play: 'crooksnwhiskey/C09-S05-slide', fade: 30, ratio: 1.04 },
+      { at: '2:10', groups: 'B', stop: 'crooksnwhiskey/C09-S01-rythmic', fade: 10 },
+      { at: '1:43', groups: 'A', ratio: 1.0, glide: 30 },
+      { at: '2:15', groups: 'A', stop: 'crooksnwhiskey/C09-S05-slide', fade: 30, ratio: 1.04 },
+
+      //{ at: '2:15', groups: 'A', play: 'crooksnwhiskey/C09-S02-alternative', ratio: 1.004, fade: 60 },
       // Everyone accelerates inside their group, then everything freezes
-      { at: '3:00', groups: 'all', ratio: 1.03, glide: 20 },
-      { at: '4:00', groups: 'all', ratio: 1.000, glide: 30 },
-      { at: '5:00', spread: 1.000, glide: 30 },
+      //{ at: '3:00', groups: 'all', ratio: 1.03, glide: 20 },
+      //{ at: '4:00', groups: 'all', ratio: 1.000, glide: 30 },
+      //{ at: '5:00', spread: 1.000, glide: 30 },
       // Sound 3 enters on A and C only, frozen
-      { at: '5:30', groups: 'AC', play: 'demo/3', fade: 10, level: 0.8 },
-      { at: '6:00', groups: 'all', stop: 'all', fade: 20 },
+      //{ at: '5:30', groups: 'AC', play: 'demo/3', fade: 10, level: 0.8 },
+      //{ at: '6:00', groups: 'all', stop: 'all', fade: 20 },
     ],
-    end: '6:20',
+    end: '2:45',
   },
 
 
