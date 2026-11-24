@@ -65,23 +65,23 @@ const SCORES = [
     credit: 'Alex Chardon',
     events: [
 
-      { at: '0:00', groups: 'AC', play: 'Crooksnwhiskey/C10-S01-littlebug', loop: true, level: 0.3, ratio: 1.03 },
-      { at: '0:10', groups: 'ABCD', play: 'Crooksnwhiskey/C10-S05-music', ratio: 1.002, fade: 20, level: 0.6 },
-      { at: '0:30', groups: 'A', play: 'Crooksnwhiskey/C10-S03-birds_FAV', loop: false },
+      { at: '0:00', groups: 'AC', play: 'crooksnwhiskey/C10-S01-littlebug', loop: true, level: 0.3, ratio: 1.03 },
+      { at: '0:10', groups: 'ABCD', play: 'crooksnwhiskey/C10-S05-music', ratio: 1.002, fade: 20, level: 0.6 },
+      { at: '0:30', groups: 'A', play: 'crooksnwhiskey/C10-S03-birds_FAV', loop: false },
 
 
-      { at: '0:40', groups: 'B', play: 'Crooksnwhiskey/C10-S03-birds_FAV', fade: 10, level: 0.9, ratio: 1.03 },
-      { at: '0:42', groups: 'D', play: 'Crooksnwhiskey/C10-S03-birds_FAV', fade: 10, level: 0.9, ratio: 1.03 },
+      { at: '0:40', groups: 'B', play: 'crooksnwhiskey/C10-S03-birds_FAV', fade: 10, level: 0.9, ratio: 1.03 },
+      { at: '0:42', groups: 'D', play: 'crooksnwhiskey/C10-S03-birds_FAV', fade: 10, level: 0.9, ratio: 1.03 },
 
 
-      { at: '1:00', groups: 'A', play: 'Crooksnwhiskey/C10-S04-woop', fade: 10, level: 3 },
-      { at: '1:10', groups: 'C', play: 'Crooksnwhiskey/C10-S04-woop', fade: 10, level: 3 },
+      { at: '1:00', groups: 'A', play: 'crooksnwhiskey/C10-S04-woop', fade: 10, level: 3 },
+      { at: '1:10', groups: 'C', play: 'crooksnwhiskey/C10-S04-woop', fade: 10, level: 3 },
 
-      { at: '1:30', groups: 'B', play: 'Crooksnwhiskey/C10-S02-footsteps', fade: 15, level: 0.8, ratio: 1.000 },
-      { at: '1:45', groups: 'ABCD', stop: 'Crooksnwhiskey/C10-S03-birds_FAV', fade: 5, level: 0.7 },
-      { at: '1:45', groups: 'ABCD', stop: 'Crooksnwhiskey/C10-S04-woop', fade: 5, level: 0.8 },
-      { at: '1:45', groups: 'ABCD', stop: 'Crooksnwhiskey/C10-S01-littlebug', fade: 25, level: 0.8 },
-      { at: '1:45', groups: 'ABCD', stop: 'Crooksnwhiskey/C10-S05-music', fade: 0, level: 0.8 },
+      { at: '1:30', groups: 'B', play: 'crooksnwhiskey/C10-S02-footsteps', fade: 15, level: 0.8, ratio: 1.000 },
+      { at: '1:45', groups: 'ABCD', stop: 'crooksnwhiskey/C10-S03-birds_FAV', fade: 5, level: 0.7 },
+      { at: '1:45', groups: 'ABCD', stop: 'crooksnwhiskey/C10-S04-woop', fade: 5, level: 0.8 },
+      { at: '1:45', groups: 'ABCD', stop: 'crooksnwhiskey/C10-S01-littlebug', fade: 25, level: 0.8 },
+      { at: '1:45', groups: 'ABCD', stop: 'crooksnwhiskey/C10-S05-music', fade: 0, level: 0.8 },
 
       { at: '2:04', groups: 'ABCD', stop: 'all', fade: 0, level: 0.8, ratio: 1.0 },
 
